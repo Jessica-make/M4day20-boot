@@ -1,0 +1,10 @@
+2020-10-21 08:49:54.754 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-21 19:25:12.490 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-21 19:26:12.303 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.newLogin - ==>  Preparing: SELECT count(*) FROM account WHERE username= ? AND passwd=?
+2020-10-21 19:26:12.525 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.newLogin - ==> Parameters: xx(String), 123(String)
+2020-10-21 19:26:12.741 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.newLogin - <==      Total: 1
+2020-10-21 19:26:14.382 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-21 19:26:14.385 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-21 19:26:14.386 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-21 19:26:14.387 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-21 19:26:14.388 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 

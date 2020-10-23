@@ -1,0 +1,1387 @@
+2020-10-16 16:07:16.577 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:11:10.501 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:12:33.597 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:13:43.422 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:13:58.987 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:17:52.614 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:29:35.130 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:30:02.462 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:50:13.288 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:52:04.967 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 16:52:05.054 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 16:52:05.152 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 16:52:05.156 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 16:52:05.156 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 16:55:22.247 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:56:00.311 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:58:17.545 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 16:58:38.292 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.newLogin - ==>  Preparing: SELECT count(*) FROM account WHERE username= ? AND passwd=?
+2020-10-16 16:58:38.310 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.newLogin - ==> Parameters: xx(String), 123(String)
+2020-10-16 16:58:38.384 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.newLogin - <==      Total: 1
+2020-10-16 16:58:39.703 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 16:58:39.704 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 16:58:39.705 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 16:58:39.706 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 16:58:39.707 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 17:39:11.760 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 17:43:07.368 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 17:43:21.655 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.newLogin - ==>  Preparing: SELECT count(*) FROM account WHERE username= ? AND passwd=?
+2020-10-16 17:43:21.706 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.newLogin - ==> Parameters: xx(String), 123(String)
+2020-10-16 17:43:21.751 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.newLogin - <==      Total: 1
+2020-10-16 17:43:22.690 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 17:43:22.690 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 17:43:22.690 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 17:43:22.692 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 17:43:22.692 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 17:44:00.779 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 17:44:00.779 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 17:44:00.781 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 17:44:00.781 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 17:44:00.781 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 18:57:28.839 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 18:57:34.948 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 18:57:34.966 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 18:57:34.980 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 18:57:34.983 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 18:57:34.983 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:01.465 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:06:03.788 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:03.809 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:03.828 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:03.831 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:03.831 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:05.714 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:05.714 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:05.715 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:05.716 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:05.716 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:06.329 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:06.330 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:06.331 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:06.331 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:06.331 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:07.816 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:07.817 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:07.817 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:07.818 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:07.818 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:09.090 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:09.090 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:09.091 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:09.092 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:09.093 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:10.268 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:10.268 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:10.269 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:10.270 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:10.270 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:10.272 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 26
+2020-10-16 19:06:11.481 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:11.481 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:11.482 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:11.482 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:11.482 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:13.083 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:13.083 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:13.084 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:13.084 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:13.085 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:13.086 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 26
+2020-10-16 19:06:14.818 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:14.818 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:14.819 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:14.819 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:14.819 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:06:21.097 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:06:21.098 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:06:21.098 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:06:21.099 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:06:21.099 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:09:10.898 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:09:10.898 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:09:10.899 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:09:10.900 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:09:10.900 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:09:10.902 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 26
+2020-10-16 19:09:17.658 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:09:17.658 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:09:17.659 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:09:17.659 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:09:17.659 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:09:17.660 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 26
+2020-10-16 19:10:02.580 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:10:02.580 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:10:02.581 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:10:02.582 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:10:02.582 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:11:45.409 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:11:50.712 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:11:50.730 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:11:50.744 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:11:50.747 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:11:50.747 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:12:01.408 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:12:04.766 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:12:04.785 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:12:04.801 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:12:04.804 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:12:04.804 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:12:05.974 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:12:05.975 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:12:05.976 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:12:05.978 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:12:05.978 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:12:08.748 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:12:08.748 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:12:08.749 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:12:08.749 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:12:08.749 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:12:08.750 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 26
+2020-10-16 19:12:10.482 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:12:10.482 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 161(Integer)
+2020-10-16 19:12:10.557 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:12:13.829 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:12:13.830 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 161(Integer)
+2020-10-16 19:12:13.831 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 0
+2020-10-16 19:15:07.700 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:15:12.000 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:12.018 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:12.033 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:12.037 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:12.037 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:15.266 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:15.266 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:15.267 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:15.268 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:15.268 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:16.561 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:16.561 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:16.562 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:16.562 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:16.562 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:18.588 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:18.588 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:18.589 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:18.590 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:18.590 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:18.743 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:18.743 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:18.744 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:18.746 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:18.747 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:21.938 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:21.938 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:21.939 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:21.940 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:21.940 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:22.869 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:22.869 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:22.870 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:22.871 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:22.871 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:23.545 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:23.545 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:23.546 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:23.547 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:23.547 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:23.696 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:23.696 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:23.697 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:23.697 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:23.697 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:15:24.042 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:15:24.042 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:15:24.043 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:15:24.043 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:15:24.043 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:00.119 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:16:03.842 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:03.867 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:03.889 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:03.892 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:03.892 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:05.050 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:05.050 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:05.051 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:05.052 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:05.052 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:05.697 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:05.697 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:05.699 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:05.700 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:05.700 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:06.874 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:06.874 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:06.874 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:06.875 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:06.875 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:07.233 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:07.233 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:07.234 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:07.235 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:07.237 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:08.037 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:08.037 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:08.038 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:08.038 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:08.038 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:08.329 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:08.329 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:08.330 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:08.331 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:08.331 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:09.826 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:09.826 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:09.827 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:09.829 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:09.829 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:10.640 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:10.641 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:10.641 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:10.641 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:10.641 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:10.803 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:10.803 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:10.804 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:10.804 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:10.804 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:12.442 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:12.442 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:12.443 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:12.444 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:12.444 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:13.001 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:13.001 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:13.002 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:13.003 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:13.003 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:13.589 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:13.589 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:13.590 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:13.590 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:13.590 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:14.122 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:14.122 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:14.123 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:14.124 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:14.124 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:14.690 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:14.690 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:14.690 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:14.691 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:14.691 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:15.081 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:15.081 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:15.082 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:15.083 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:15.083 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:15.507 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:15.507 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:15.508 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:15.508 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:15.508 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:15.965 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:15.965 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:15.966 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:15.967 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:15.967 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:16.972 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:16.972 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:16.972 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:16.973 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:16.973 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:17.426 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:16:17.426 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:16:17.427 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:16:17.428 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:16:17.428 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:16:19.844 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:16:19.844 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 155(Integer)
+2020-10-16 19:16:19.847 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:16:22.266 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:16:22.267 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 155(Integer)
+2020-10-16 19:16:22.268 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 0
+2020-10-16 19:50:23.013 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:50:34.233 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:50:34.254 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:50:34.270 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:50:34.273 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:50:34.273 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:50:35.669 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:50:35.669 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:50:35.670 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:50:35.671 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:50:35.671 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:50:35.673 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 24
+2020-10-16 19:50:38.448 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:50:38.449 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 160(Integer)
+2020-10-16 19:50:38.466 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:50:38.626 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:50:38.627 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:50:38.628 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:50:38.629 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:50:38.629 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:50:38.630 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 23
+2020-10-16 19:50:41.753 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:50:41.753 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 159(Integer)
+2020-10-16 19:50:41.783 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:50:41.905 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:50:41.905 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:50:41.905 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:50:41.906 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:50:41.906 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:50:41.908 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 22
+2020-10-16 19:50:49.975 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:50:49.975 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 158(Integer)
+2020-10-16 19:50:49.976 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:50:50.114 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:50:50.114 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:50:50.115 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:50:50.115 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:50:50.115 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:50:50.117 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 21
+2020-10-16 19:52:20.326 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:52:25.779 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:52:25.810 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:52:25.840 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:52:25.845 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:52:25.845 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:52:27.042 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:52:27.042 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:52:27.043 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:52:27.044 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:52:27.044 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:52:27.047 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 21
+2020-10-16 19:52:30.454 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:52:30.455 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 157(Integer)
+2020-10-16 19:52:30.463 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:52:30.606 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:52:30.606 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:52:30.606 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:52:30.607 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:52:30.607 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:52:30.608 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 20
+2020-10-16 19:52:32.086 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:52:32.086 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:52:32.184 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:52:32.185 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:52:32.185 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:53:26.639 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 19:53:32.245 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:53:32.267 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:53:32.286 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:53:32.288 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:53:32.288 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:42.874 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:42.875 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:42.876 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:42.877 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:42.877 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:47.143 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? , ? , ? , ? , ? )
+2020-10-16 19:54:47.144 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 151(Integer), 152(Integer), 153(Integer), 154(Integer), 156(Integer)
+2020-10-16 19:54:47.241 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 5
+2020-10-16 19:54:47.378 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:47.378 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:47.380 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:47.380 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:47.380 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:47.382 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 15
+2020-10-16 19:54:48.596 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:48.596 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:48.599 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:48.601 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:48.601 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:49.386 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:49.387 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:49.388 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:49.388 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:49.388 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:49.973 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:49.973 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:49.974 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:49.976 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:49.976 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:50.471 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:50.471 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:50.472 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:50.473 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:50.473 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:51.234 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:51.235 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:51.236 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:51.237 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:51.237 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:56.156 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:54:56.156 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 150(Integer)
+2020-10-16 19:54:56.156 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:54:56.299 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:54:56.299 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:54:56.300 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:56.301 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:54:56.302 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:54:56.303 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 14
+2020-10-16 19:54:58.722 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1 WHERE t1.username LIKE CONCAT ('%',?,'%')
+2020-10-16 19:54:58.723 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 1(String)
+2020-10-16 19:54:58.803 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:54:58.804 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1 WHERE t1.username LIKE CONCAT ('%',?,'%')
+2020-10-16 19:54:58.804 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 1(String)
+2020-10-16 19:54:58.805 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 4
+2020-10-16 19:55:03.234 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1 WHERE t1.username LIKE CONCAT ('%',?,'%') AND t1.passwd_str LIKE CONCAT ('%',?,'%')
+2020-10-16 19:55:03.234 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 1(String), 1(String)
+2020-10-16 19:55:03.234 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:03.235 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1 WHERE t1.username LIKE CONCAT ('%',?,'%') AND t1.passwd_str LIKE CONCAT ('%',?,'%')
+2020-10-16 19:55:03.235 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 1(String), 1(String)
+2020-10-16 19:55:03.236 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 3
+2020-10-16 19:55:05.361 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:05.361 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:05.363 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:05.363 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:05.363 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:25.033 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.add - ==>  Preparing: INSERT INTO emp( role, username, uname, passwd_str, status, others) VALUES (?,?,?,?,?,?)
+2020-10-16 19:55:25.034 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.add - ==> Parameters: (String), (String), (String), (String), (String), (String)
+2020-10-16 19:55:25.057 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.add - <==    Updates: 1
+2020-10-16 19:55:25.233 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:25.233 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:25.234 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:25.234 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:25.234 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:27.578 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:27.578 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:27.579 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:27.580 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:27.580 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:30.204 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:30.204 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:30.205 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:30.205 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:30.206 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:31.035 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:31.036 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:31.036 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:31.038 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:31.039 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:32.098 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:32.098 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:32.099 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:32.099 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:32.099 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:33.885 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:33.885 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:33.886 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:33.888 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:33.888 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:34.998 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:34.998 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:34.998 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:34.999 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:34.999 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:39.356 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:39.356 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:39.357 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:39.358 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:39.358 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:43.114 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:43.114 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:43.115 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:43.116 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:43.116 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:46.572 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 19:55:46.573 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 162(Integer)
+2020-10-16 19:55:46.574 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 19:55:46.801 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:55:46.801 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:55:46.802 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:55:46.802 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:55:46.802 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:55:46.804 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 14
+2020-10-16 19:56:01.641 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:56:01.641 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:56:01.642 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:56:01.643 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:56:01.643 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:56:22.084 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.add - ==>  Preparing: INSERT INTO emp( role, username, uname, passwd_str, status, others) VALUES (?,?,?,?,?,?)
+2020-10-16 19:56:22.085 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.add - ==> Parameters: (String), (String), (String), (String), (String), (String)
+2020-10-16 19:56:22.086 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.add - <==    Updates: 1
+2020-10-16 19:56:22.235 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:56:22.235 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:56:22.236 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:56:22.236 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:56:22.236 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 19:59:58.858 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 19:59:58.859 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 19:59:58.862 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 19:59:58.863 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 19:59:58.863 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:00:05.533 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:00:05.533 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:00:05.535 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:00:05.535 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:00:05.535 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:00:19.474 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.add - ==>  Preparing: INSERT INTO emp( role, username, uname, passwd_str, status, others) VALUES (?,?,?,?,?,?)
+2020-10-16 20:00:19.475 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.add - ==> Parameters: (String), (String), (String), (String), (String), (String)
+2020-10-16 20:00:19.475 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.add - <==    Updates: 1
+2020-10-16 20:00:19.716 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:00:19.716 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:00:19.717 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:00:19.718 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:00:19.718 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:00:35.277 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:00:35.277 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:00:35.278 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:00:35.279 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:00:35.279 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:00:35.280 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 16
+2020-10-16 20:00:38.228 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:00:38.228 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:00:38.229 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:00:38.229 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:00:38.229 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:00:39.709 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:00:39.709 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:00:39.710 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:00:39.710 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:00:39.711 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:00:39.712 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 16
+2020-10-16 20:46:41.500 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 20:46:45.333 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:46:45.351 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:46:45.367 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:46:45.369 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:46:45.370 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:46:47.073 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:46:47.073 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:46:47.074 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:46:47.075 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:46:47.075 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:46:47.077 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 16
+2020-10-16 20:47:02.404 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.add - ==>  Preparing: INSERT INTO emp( role, username, uname, passwd_str, status, others) VALUES (?,?,?,?,?,?)
+2020-10-16 20:47:02.404 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.add - ==> Parameters: 程序员(String), 大牛(String), 666(String), 666(String), 666(String), 666(String)
+2020-10-16 20:47:02.405 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.add - <==    Updates: 1
+2020-10-16 20:47:02.917 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:02.917 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:02.918 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:02.919 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:02.919 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:02.921 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 17
+2020-10-16 20:47:14.474 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.change - ==>  Preparing: UPDATE emp SET role = ?, username = ?, uname = ?, passwd_str =?, status = ?, others = ? WHERE id=?
+2020-10-16 20:47:14.475 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.change - ==> Parameters: 程序员(String), 大牛(String), 666666(String), 666(String), 666(String), 666(String), 165(Integer)
+2020-10-16 20:47:14.601 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.change - <==    Updates: 1
+2020-10-16 20:47:14.769 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:14.769 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:14.770 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:14.771 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:14.771 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:14.772 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 17
+2020-10-16 20:47:19.942 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:19.942 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:19.943 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:19.944 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:19.944 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:21.672 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:21.672 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:21.673 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:21.673 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:21.673 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:22.422 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:22.422 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:22.423 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:22.424 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:22.424 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:22.426 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 17
+2020-10-16 20:47:24.979 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 20:47:24.979 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 164(Integer)
+2020-10-16 20:47:24.988 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 20:47:25.212 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:25.212 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:25.213 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:25.213 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:25.213 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:25.215 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 16
+2020-10-16 20:47:26.606 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:26.606 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:26.608 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:26.608 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:26.608 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:33.801 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 20:47:33.801 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 163(Integer)
+2020-10-16 20:47:33.802 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 20:47:34.013 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:34.013 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:34.014 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:34.015 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:34.015 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:35.853 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:35.853 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:35.854 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:35.855 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:35.855 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:36.664 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:36.664 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:36.665 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:36.665 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:36.665 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:37.399 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:37.400 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:37.400 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:37.401 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:37.401 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:43.137 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:43.137 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:43.138 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:43.139 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:43.139 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 20:47:44.337 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 20:47:44.337 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 20:47:44.338 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 20:47:44.339 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 20:47:44.339 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:04:33.310 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:04:33.312 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:04:33.317 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:04:33.317 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:04:33.318 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:04:40.233 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.change - ==>  Preparing: UPDATE emp SET role = ?, username = ?, uname = ?, passwd_str =?, status = ?, others = ? WHERE id=?
+2020-10-16 21:04:40.233 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.change - ==> Parameters: sss6(String), zzz(String), 111(String), 222(String), 333(String), 444(String), 149(Integer)
+2020-10-16 21:04:40.235 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.change - <==    Updates: 1
+2020-10-16 21:04:40.439 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:04:40.439 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:04:40.442 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:04:40.443 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:04:40.443 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:06:41.789 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:07:07.360 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:09:03.338 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:09:07.437 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:07.457 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:07.472 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:07.476 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:07.476 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:08.671 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:08.672 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:08.672 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:08.673 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:08.673 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:11.026 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 21:09:11.026 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 165(Integer)
+2020-10-16 21:09:11.036 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 21:09:11.286 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:11.286 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:11.287 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:11.288 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:11.288 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:11.290 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 14
+2020-10-16 21:09:29.763 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 21:09:29.763 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 149(Integer)
+2020-10-16 21:09:29.764 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 21:09:29.905 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:29.905 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:29.906 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:29.906 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:29.907 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:29.909 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 13
+2020-10-16 21:09:42.413 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:42.414 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:42.414 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:42.416 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:42.416 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:43.641 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:43.641 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:43.642 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:43.644 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:43.644 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:43.645 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 13
+2020-10-16 21:09:45.900 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:45.900 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:45.901 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:45.904 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:45.905 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:49.609 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:49.609 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:49.610 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:49.611 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:49.611 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:50.144 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:09:50.144 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:09:50.145 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:09:50.146 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:09:50.146 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:09:50.147 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 13
+2020-10-16 21:10:08.539 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 21:10:08.539 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 148(Integer)
+2020-10-16 21:10:08.540 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 21:10:08.689 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:10:08.690 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:10:08.691 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:10:08.691 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:10:08.691 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:10:08.692 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:10:11.977 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 21:10:11.977 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 148(Integer)
+2020-10-16 21:10:11.978 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 0
+2020-10-16 21:10:12.009 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:10:12.009 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:10:12.010 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:10:12.011 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:10:12.011 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:10:12.012 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:10:17.236 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? , ? )
+2020-10-16 21:10:17.236 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 148(Integer), 147(Integer)
+2020-10-16 21:10:17.244 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 21:10:17.389 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:10:17.389 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:10:17.390 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:10:17.390 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:10:17.391 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:10:17.391 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 11
+2020-10-16 21:10:31.716 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.del - ==>  Preparing: DELETE FROM emp WHERE id IN ( ? )
+2020-10-16 21:10:31.717 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.del - ==> Parameters: 146(Integer)
+2020-10-16 21:10:31.717 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.del - <==    Updates: 1
+2020-10-16 21:10:31.868 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:10:31.869 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:10:31.869 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:10:31.870 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:10:31.870 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:10:31.871 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 10
+2020-10-16 21:10:33.639 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:10:33.639 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:10:33.640 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:10:33.640 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:10:33.640 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:10:48.698 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:11:24.315 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.add - ==>  Preparing: INSERT INTO emp( role, username, uname, passwd_str, status, others) VALUES (?,?,?,?,?,?)
+2020-10-16 21:11:24.332 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.add - ==> Parameters: 11(String), xx(String), 123(String), 111(String), 1212(String), 11111(String)
+2020-10-16 21:11:24.334 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.add - <==    Updates: 1
+2020-10-16 21:11:24.610 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:24.610 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:24.637 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:24.639 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:24.639 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:27.915 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:27.915 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:27.916 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:27.916 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:27.916 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:27.917 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 11
+2020-10-16 21:11:39.969 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.add - ==>  Preparing: INSERT INTO emp( role, username, uname, passwd_str, status, others) VALUES (?,?,?,?,?,?)
+2020-10-16 21:11:39.970 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.add - ==> Parameters: 11(String), 1(String), 123(String), 111(String), 111(String), 11111(String)
+2020-10-16 21:11:39.971 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.add - <==    Updates: 1
+2020-10-16 21:11:40.126 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:40.217 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:40.220 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:40.221 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:40.221 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:40.224 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:11:42.560 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:42.560 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:42.561 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:42.561 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:42.561 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:42.562 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:11:44.649 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:44.650 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:44.650 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:44.650 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:44.651 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:44.651 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:11:46.028 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:46.028 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:46.029 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:46.029 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:46.029 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:46.030 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:11:47.172 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:47.172 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:47.173 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:47.175 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:47.176 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:49.166 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:49.167 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:49.167 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:49.168 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:49.168 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:49.169 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:11:50.137 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:11:50.137 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:11:50.138 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:11:50.138 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:11:50.138 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:11:50.139 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:12:14.323 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:12:14.323 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:12:14.324 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:12:14.324 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:12:14.324 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:12:14.325 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:12:25.506 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:12:25.506 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:12:25.507 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:12:25.508 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:12:25.508 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:12:25.509 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:12:45.419 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:12:45.420 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:12:45.421 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:12:45.422 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:12:45.422 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:13:56.239 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:13:56.240 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:13:56.242 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:13:56.242 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:13:56.242 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:13:56.243 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:13:57.556 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:13:57.556 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:13:57.558 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:13:57.559 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:13:57.559 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:13:57.560 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:13:58.752 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:13:58.752 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:13:58.753 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:13:58.753 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:13:58.753 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:13:58.754 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:13:58.946 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:13:58.946 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:13:58.946 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:13:58.947 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:13:58.947 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:13:58.948 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:15:17.607 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:15:33.047 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:33.066 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:33.083 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:33.085 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:33.086 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:34.544 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:34.544 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:34.545 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:34.545 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:34.545 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:34.548 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:15:39.991 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:39.992 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:39.992 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:39.993 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:39.993 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:39.994 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:15:40.539 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:40.539 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:40.539 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:40.540 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:40.540 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:41.672 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:41.672 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:41.673 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:41.674 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:41.674 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:42.143 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:42.143 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:42.144 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:42.145 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:42.145 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:42.592 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:42.592 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:42.593 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:42.594 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:42.594 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:15:42.595 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:15:44.393 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:15:44.393 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:15:44.394 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:15:44.396 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:15:44.396 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:19.342 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:18:26.489 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:26.511 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:26.528 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:26.530 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:26.530 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:28.364 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:28.364 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:28.366 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:28.367 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:28.367 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:29.424 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:29.425 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:29.426 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:29.427 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:29.427 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:30.722 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:30.722 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:30.723 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:30.723 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:30.724 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:49.732 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:49.732 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:49.733 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:49.734 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:49.734 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:49.735 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:50.969 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:50.969 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:50.970 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:50.971 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:50.971 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:50.972 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:51.426 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:51.426 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:51.427 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:51.428 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:51.428 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:51.429 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:51.584 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:51.585 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:51.586 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:51.587 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:51.587 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:51.588 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:51.746 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:51.746 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:51.747 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:51.747 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:51.747 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:51.748 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:51.866 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:51.866 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:51.867 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:51.867 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:51.867 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:51.868 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:52.010 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:52.010 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:52.011 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:52.012 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:52.012 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:52.012 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:52.163 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:52.163 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:52.164 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:52.164 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:52.164 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:52.165 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:52.305 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:52.305 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:52.306 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:52.306 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:52.306 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:52.307 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:18:52.440 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:18:52.440 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:18:52.441 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:18:52.442 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:18:52.442 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:18:52.443 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:19:20.629 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:19:23.844 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:23.863 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:23.882 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:23.886 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:23.886 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:25.065 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:25.065 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:25.066 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:25.066 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:25.066 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:25.068 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:19:26.057 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:26.058 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:26.058 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:26.059 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:26.059 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:28.697 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:28.697 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:28.699 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:28.699 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:28.699 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:28.700 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:19:29.947 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:29.947 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:29.948 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:29.948 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:29.949 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:32.624 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:32.624 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:32.625 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:32.626 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:32.626 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:36.642 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:36.642 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:36.643 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:36.644 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:36.644 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:36.645 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:19:37.819 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:37.819 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:37.821 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:37.822 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:37.822 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:38.497 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:38.497 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:38.498 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:38.499 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:38.499 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:40.016 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:40.016 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:40.017 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:40.017 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:40.018 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:41.569 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:41.569 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:41.570 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:41.571 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:41.571 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:19:41.572 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:19:55.620 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:19:55.620 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:19:55.621 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:19:55.622 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:19:55.622 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:28:34.329 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:28:43.111 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:28:43.129 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:28:43.144 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:28:43.148 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:28:43.148 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:29:27.741 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:29:27.741 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:29:27.742 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:29:27.743 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:29:27.743 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:32:01.053 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:32:01.054 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:32:01.057 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:32:01.058 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:32:01.058 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:33:08.734 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:33:13.698 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:33:13.715 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:33:13.732 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:33:13.735 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:33:13.735 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:35:34.889 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:35:34.889 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:35:34.891 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:35:34.891 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:35:34.891 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:35:34.893 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:35:37.649 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:35:37.649 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:35:37.651 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:35:37.652 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:35:37.652 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:35:38.993 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:35:38.993 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:35:38.994 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:35:38.995 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:35:38.995 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:35:39.835 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:35:39.835 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:35:39.836 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:35:39.837 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:35:39.837 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:35:39.838 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:35:40.908 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:35:40.908 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:35:40.910 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:35:40.910 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:35:40.910 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:41:29.586 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:41:34.075 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:41:34.094 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:41:34.110 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:41:34.112 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:41:34.112 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:41:38.450 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:41:38.450 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:41:38.452 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:41:38.453 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:41:38.453 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:41:39.331 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:41:39.331 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:41:39.332 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:41:39.333 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:41:39.333 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:41:40.485 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:41:40.485 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:41:40.487 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:41:40.488 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:41:40.488 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:47:10.461 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:47:16.261 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:47:16.279 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:47:16.294 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:47:16.297 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:47:16.297 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:49:29.932 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:49:32.399 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:49:32.419 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:49:32.434 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:49:32.437 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:49:32.437 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:49:33.322 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:49:33.322 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:49:33.323 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:49:33.324 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:49:33.324 [http-nio-8888-exec-7] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:49:33.996 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:49:33.996 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:49:33.998 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:49:33.999 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:49:33.999 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:49:34.806 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:49:34.807 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:49:34.807 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:49:34.808 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:49:34.808 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:49:35.292 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:49:35.292 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:49:35.293 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:49:35.294 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:49:35.294 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:52:05.253 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:52:07.586 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:52:07.607 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:52:07.623 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:52:07.626 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:52:07.626 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:52:13.382 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:52:13.382 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:52:13.383 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:52:13.384 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:52:13.384 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:52:28.794 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:52:28.794 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:52:28.795 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:52:28.796 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:52:28.796 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:52:33.752 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:52:33.752 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:52:33.753 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:52:33.754 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:52:33.754 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:52:35.182 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:52:35.182 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:52:35.183 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:52:35.184 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:52:35.184 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:53:47.636 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:53:51.948 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:53:51.970 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:53:51.995 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:53:51.998 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:53:51.998 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:54:41.565 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:54:43.733 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:54:43.750 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:54:43.775 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:54:43.779 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:54:43.779 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:54:54.859 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:54:57.189 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:54:57.206 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:54:57.220 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:54:57.222 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:54:57.222 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:55:06.529 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:55:11.892 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:55:11.909 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:55:11.925 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:55:11.928 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:55:11.928 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:55:13.361 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:55:13.361 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:55:13.363 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:55:13.363 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:55:13.364 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:55:58.200 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:56:03.358 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:56:03.383 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:56:03.403 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:56:03.407 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:56:03.407 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:56:04.594 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:56:04.594 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:56:04.596 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:56:04.596 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:56:04.597 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:58:08.472 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 21:58:14.293 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:58:14.316 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:58:14.348 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:58:14.354 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:58:14.354 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:58:20.027 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:58:20.028 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:58:20.029 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:58:20.029 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:58:20.029 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:58:20.032 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:58:20.988 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:58:20.988 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:58:20.989 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:58:20.990 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:58:20.990 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:58:25.964 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:58:25.965 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:58:25.965 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:58:25.966 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:58:25.966 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 21:58:25.966 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 21:58:29.546 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 21:58:29.546 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 21:58:29.547 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 21:58:29.547 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 21:58:29.547 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:02:21.725 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:02:27.107 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:02:27.124 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:02:27.142 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:02:27.145 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:02:27.145 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:03:38.068 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:03:41.010 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:03:41.034 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:03:41.051 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:03:41.054 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:03:41.054 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:03:48.901 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:03:48.901 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:03:48.902 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:03:48.902 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:03:48.902 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:03:48.904 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 22:05:44.759 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:05:47.115 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:47.138 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:47.156 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:47.160 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:47.160 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:05:48.781 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:48.781 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:48.782 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:48.783 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:48.784 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:05:49.229 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:49.229 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:49.230 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:49.231 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:49.231 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:05:49.454 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:49.454 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:49.456 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:49.457 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:49.457 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:05:49.655 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:49.655 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:49.657 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:49.658 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:49.658 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:05:49.941 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:49.941 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:49.942 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:49.942 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:49.942 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:05:52.825 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:05:52.825 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:05:52.826 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:05:52.826 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:05:52.826 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:06:04.981 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:06:04.981 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:06:04.982 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:06:04.983 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:06:04.984 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:06:45.096 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:07:29.097 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:07:31.487 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:07:31.514 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:07:31.530 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:07:31.532 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:07:31.533 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:09:37.725 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:09:41.104 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:09:41.123 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:09:41.138 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:09:41.141 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:09:41.141 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:09:42.699 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:09:42.699 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:09:42.700 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:09:42.701 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:09:42.701 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:10:22.850 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 22:10:25.287 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:10:25.312 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:10:25.328 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:10:25.334 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:10:25.334 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:48:51.751 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.newLogin - ==>  Preparing: SELECT count(*) FROM account WHERE username= ? AND passwd=?
+2020-10-16 22:48:51.751 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.newLogin - ==> Parameters: xx(String), 123(String)
+2020-10-16 22:48:51.792 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.newLogin - <==      Total: 1
+2020-10-16 22:48:53.206 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:48:53.207 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:48:53.208 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:48:53.209 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:48:53.209 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:01.875 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:01.875 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:01.876 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:01.877 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:01.877 [http-nio-8888-exec-4] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:07.188 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:07.188 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:07.189 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:07.190 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:07.190 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:07.192 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 22:49:14.792 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:14.792 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:14.792 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:14.792 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:14.793 [http-nio-8888-exec-10] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:32.797 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:32.797 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:32.798 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:32.798 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:32.798 [http-nio-8888-exec-1] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:34.421 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:34.421 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:34.422 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:34.423 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:34.423 [http-nio-8888-exec-8] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:38.449 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:38.449 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:38.450 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:38.451 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:38.452 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:49:38.453 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.getList - <==      Total: 12
+2020-10-16 22:49:39.566 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:49:39.566 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:49:39.567 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:49:39.568 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:49:39.568 [http-nio-8888-exec-5] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:50:05.670 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:50:05.670 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:50:05.671 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:50:05.672 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:50:05.672 [http-nio-8888-exec-2] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:50:09.822 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:50:09.823 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:50:09.824 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:50:09.828 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:50:09.828 [http-nio-8888-exec-9] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 22:51:19.013 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.newLogin - ==>  Preparing: SELECT count(*) FROM account WHERE username= ? AND passwd=?
+2020-10-16 22:51:19.013 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.newLogin - ==> Parameters: 大牛(String), 666(String)
+2020-10-16 22:51:19.014 [http-nio-8888-exec-3] DEBUG com.spoto.dao.EmpMapper.newLogin - <==      Total: 1
+2020-10-16 22:51:20.157 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 22:51:20.157 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 22:51:20.158 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 22:51:20.159 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 22:51:20.159 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 
+2020-10-16 23:08:34.964 [main] DEBUG com.spoto.BootApplication - Running with Spring Boot v2.2.10.RELEASE, Spring v5.2.9.RELEASE
+2020-10-16 23:12:02.983 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==>  Preparing: SELECT count(*) FROM emp t1
+2020-10-16 23:12:03.246 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - ==> Parameters: 
+2020-10-16 23:12:03.281 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.listCount - <==      Total: 1
+2020-10-16 23:12:03.284 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==>  Preparing: SELECT * FROM emp t1
+2020-10-16 23:12:03.284 [http-nio-8888-exec-6] DEBUG com.spoto.dao.EmpMapper.getList - ==> Parameters: 

@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>华龙资产管理系统</title>
+    <link href="plugins\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* 布局 */
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .main > div:nth-child(1) {
+            width: 100%;
+            min-height: 52px;
+            max-height: 52px;
+        }
+        .main > div:nth-child(2) {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        .main > div:nth-child(2) >div:first-child {
+            height: 100%;
+            min-width: 200px;
+            max-width: 200px;
+            padding-top: 5px;
+            padding-right: 5px;
+        }
+        .main > div:nth-child(2) >div:last-child {
+            height: 100%;
+            width: 100%;
+            padding-top: 5px;
+        }
+        .main > div:nth-child(3) {
+            width: 100%;
+            min-height: 30px;
+            max-height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-top: 1px #e7e7e7 solid;
+        }
+
+        /* 导航 */
+        .my-nav {
+            margin-bottom: 0;
+        }
+
+        .add-empolyee{
+            text-align: center;
+            background-color:#00ffff ;
+        }
+
+        .add-finace{
+            text-align: center;
+            background-color:lightpink;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- 加个模态框 -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">请修改</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" width="100px">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="main main-body">
+    <div>
+        <nav class="navbar navbar-default my-nav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">华龙资产管理系统</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown" >
+                            <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                欢迎您 {{username}} <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a data-toggle="modal" data-target="#myModal">修改资料</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a onclick="OutLogin()">退出登录</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+    <div>
+        <div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                               aria-controls="collapseOne">
+                                员工管理
+                            </a>
+                        </h4>
+                    </div>
+
+<!--  &#45;&#45;&lt;!&ndash; 在添加员工那里加个模态框 &ndash;&gt;&#45;&#45;-->
+                    <!-- Modal -->
+                    <div class="addEmp">
+                        <div class="modal fade " id="myemp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="panel panel-info add-empolyee">
+                                        <div class="modal-header" >
+                                            添加员工
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="role">
+                                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 请输入您的职务
+                                        </label>
+                                        <input type="text" class="form-control" id="role" placeholder="请输入您的职务" v-model="role">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="username" >
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入您的姓名
+                                        </label>
+                                        <input  type="text" class="form-control" id="username" placeholder="请输入您的姓名" v-model="username" >
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="uname" >
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入账号
+                                        </label>
+                                        <input  type="text" class="form-control" id="uname" placeholder="请输入账号" v-model="uname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwd">
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入密码
+                                        </label>
+                                        <input  type="password" class="form-control" id="passwd" placeholder="请输入密码" v-model="passwd">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="status" >
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入当前状态
+                                        </label>
+                                        <input  type="text" class="form-control" id="status" placeholder="请输入当前状态"  v-model="status">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="others" >
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 其它
+                                        </label>
+                                        <input type="text" class="form-control" id="others" placeholder="其它事务" v-model="others">
+                                    </div>
+
+                                    <div class="modal-footer" data-dismiss="modal">
+
+                                    </div>
+                                    <button type="button" class="btn btn-info btn-block" @click="add()">
+                                        <span class="glyphicon glyphicon-send" aria-hidden="true"></span>&nbsp 新增
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <a url="tab" class="btn btn-link btn-block mybtn" role="button">员工信息</a>
+                            <a url="Emp.html" class="btn btn-link btn-block mybtn" role="button" data-toggle="modal" data-target="#myemp">添加员工</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                财务管理
+                            </a>
+                        </h4>
+                    </div>
+
+
+<!--                    <%&#45;&#45;&lt;!&ndash; 在添加财务员工那里加个模态框 &ndash;&gt;&#45;&#45;%>-->
+                    <!-- Modal -->
+                    <form action="/do-finace" method="post" enctype="multipart/form-data">
+                        <div class="modal fade" id="myid1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="panel panel-info add-finace">
+                                        <div class="modal-header" >
+                                            添加财务信息
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="employeeID">
+                                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 请输入您的工号
+                                        </label>
+                                        <input name="employeeID" type="text" class="form-control" id="employeeID" placeholder="请输入您的工号" >
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="certificate">
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入凭证号
+                                        </label>
+                                        <input name="certificate" type="text" class="form-control" id="certificate" placeholder="请输入凭证号" >
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="entertime">
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入入账时间
+                                        </label>
+                                        <input name="entertime" type="date" class="form-control" id="entertime" placeholder="请输入入账时间" >
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="status1">
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 请输入当前状态
+                                        </label>
+                                        <input name="status1" type="text" class="form-control" id="status1" placeholder="请输入当前状态" >
+                                    </div>
+
+                                    <div class="modal-footer" data-dismiss="modal">
+                                    </div>
+                                    <button type="submit" class="btn btn-info btn-block" >
+                                        <span class="glyphicon glyphicon-send" aria-hidden="true"></span>&nbsp 新增信息
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <a url="http:\\taobao.com" class="btn btn-link btn-block mybtn" role="button">财务员工</a>
+                            <a url="fina" class="btn btn-link btn-block mybtn" role="button" data-toggle="modal" data-target="#myid1">新增财务</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                               aria-expanded="false" aria-controls="collapseThree">
+                                资产信息
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            资产表
+                        </div>
+                    </div>
+
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            资产分类
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe id="myif" src="Emp.html" border="0" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+    <div>
+        CopyRight© 2020版权所有 闽ICP备xxxxx号
+    </div>
+</div>
+<script src="plugins/jq/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/vue/vue.js"></script>
+<script src="js/Emp.js"></script>
+
+
+
+<script type="text/javascript">
+    $(".mybtn").bind("click", function(){
+        //this拿到刚刚点击的那个事件,拿到url属性;
+        var url = $(this).attr("url");
+        //改变src的属性，变成url;
+        $("#myif").attr("src", url);
+    });
+
+    function OutLogin() {
+        $.ajax({
+            url :"/out-login.ajax",
+            type:"POST",
+            dataType :"JSON",
+            success :function (data) {
+                if (data.type){
+                    alert("退出成功!");
+                    window.location.href="login.html";
+                }else {
+                    alert("系统错误，请联系管理员!");
+                }
+            },
+            error :function () {
+                alert("系统错误，请联系管理员!");
+            }
+        })
+    }
+
+    var app=new Vue({
+        el:'.main-body',
+        data:{
+            username:''
+        },
+        methods:{
+            getMainList:function (username) {
+                $.ajax({
+                    url:'/MainList.ajax',
+                    type: 'POST',
+                    data:{
+                        username:username
+                    },
+                    dataType: 'JSON',
+                    success:function (resp) {
+
+                     app.username = resp.username;
+
+                    },
+                    error:function () {
+                      alert('系统错误，请联系管理员!');
+                    }
+                })
+            }
+        }
+    });
+    //初始化调用，可以发起ajax请求;
+    app.getMainList();
+
+
+
+</script>
+</body>
+</html>

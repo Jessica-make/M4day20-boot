@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-cN">
+<head>
+    <meta charset="UTF-8">
+    <title>笔记页</title>
+    <link href="plugins\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+    <style>
+        .mypanel{
+            margin-bottom: 2px;
+        }
+        .table{
+            text-align: center;
+            margin-top: 7px;
+            margin-bottom: 5px;
+        }
+
+        .mynav .pagination{
+            margin:10px 10px 0 0 ;
+        }
+
+        /*.mynav{*/
+        /*    padding-right: 0;*/
+        /*}*/
+
+         .search-select{
+             color: blue;
+         }
+
+
+    </style>
+</head>
+
+<body>
+<div class="my-body">
+
+        <table class="table able-bordered table-hover table-condensed tableVue" >
+            <tr class="info">
+                <td>ID</td>
+                <td>笔记名</td>
+            </tr>
+
+            <tr  v-for="da in dList">
+                <td>{{da.id}}</td>
+                <td v-html="da.title"></td>
+            </tr>
+        </table>
+</div>
+
+<script src="plugins/jq/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/layer/layer.js"></script>
+<script src="plugins/vue/vue.js"></script>
+
+<script>
+var app=new Vue({
+    el: '.my-body',
+    data:{
+       dList:[]
+    },
+    methods: {
+      getData:function () {
+          $.ajax({
+              url: '/es',
+              type: 'POST',
+              dataType: 'JSON',
+              success: function (resp) {
+                  if (resp) {
+                      //index表示可以多次弹窗;
+                      // layer.close(index);
+                      // app.xPage.getList(app.xPage.PageIndex);
+                      // app.ids = [];
+
+                      app.dList=resp.dataList;
+
+                  } else {
+                      layer.alert('查询商品失败!');
+                  }
+              },
+              error: function () {
+                  layer.alert('err');
+              }
+          });
+      }
+
+    }
+});
+//初始化数据;
+    app.getData();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+2020-10-22 11:05:37.776 [main] INFO  com.spoto.BootApplication - Starting BootApplication on MACHENI-41RFPR3 with PID 4300 (D:\JAVA\M4day20-boot\target\classes started by 赵江龙 in D:\JAVA\M4day20-boot)
+2020-10-22 11:05:37.777 [main] INFO  com.spoto.BootApplication - No active profile set, falling back to default profiles: default
+2020-10-22 11:06:07.247 [main] INFO  com.spoto.BootApplication - Started BootApplication in 30.144 seconds (JVM running for 34.115)
+2020-10-22 16:49:58.491 [main] INFO  com.spoto.BootApplication - Starting BootApplication on MACHENI-41RFPR3 with PID 18964 (D:\JAVA\M4day20-boot\target\classes started by 赵江龙 in D:\JAVA\M4day20-boot)
+2020-10-22 16:49:58.500 [main] INFO  com.spoto.BootApplication - No active profile set, falling back to default profiles: default
+2020-10-22 16:50:26.640 [main] INFO  com.spoto.BootApplication - Started BootApplication in 28.709 seconds (JVM running for 30.39)
+2020-10-22 16:57:57.156 [main] INFO  com.spoto.BootApplication - Starting BootApplication on MACHENI-41RFPR3 with PID 16944 (D:\JAVA\M4day20-boot\target\classes started by 赵江龙 in D:\JAVA\M4day20-boot)
+2020-10-22 16:57:57.157 [main] INFO  com.spoto.BootApplication - No active profile set, falling back to default profiles: default
+2020-10-22 16:58:23.375 [main] INFO  com.spoto.BootApplication - Started BootApplication in 26.685 seconds (JVM running for 27.542)
+2020-10-22 22:50:17.179 [main] INFO  com.spoto.BootApplication - Starting BootApplication on MACHENI-41RFPR3 with PID 18496 (D:\JAVA\M4day20-boot\target\classes started by 赵江龙 in D:\JAVA\M4day20-boot)
+2020-10-22 22:50:17.202 [main] INFO  com.spoto.BootApplication - No active profile set, falling back to default profiles: default
+2020-10-22 22:50:47.669 [main] INFO  com.spoto.BootApplication - Started BootApplication in 31.249 seconds (JVM running for 32.492)
+2020-10-22 22:57:03.617 [main] INFO  com.spoto.BootApplication - Starting BootApplication on MACHENI-41RFPR3 with PID 16136 (D:\JAVA\M4day20-boot\target\classes started by 赵江龙 in D:\JAVA\M4day20-boot)
+2020-10-22 22:57:03.618 [main] INFO  com.spoto.BootApplication - No active profile set, falling back to default profiles: default
+2020-10-22 22:57:29.873 [main] INFO  com.spoto.BootApplication - Started BootApplication in 26.723 seconds (JVM running for 27.72)
